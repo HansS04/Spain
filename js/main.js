@@ -14,17 +14,3 @@ $(document).ready(function(){
 });
 
 
-let nav = document.getElementById("sidebar");
-
-nav.addEventListener("click", function(){
-
-
-
-function w3_open() {
-  document.getElementById("mySidebar").style.display = "block";
-}
-
-function w3_close() {
-  document.getElementById("mySidebar").style.display = "none";
-}
-});
