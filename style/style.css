@@ -68,7 +68,7 @@ figcaption{
     width: 130px;
     position: fixed;
     z-index: 1;
-    top: 20px;
+    top: 25px;
     left: 10px;
     
     overflow-x: hidden;
@@ -78,7 +78,7 @@ figcaption{
   .sidenav a {
     padding: 6px 8px 6px 16px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 15px;
     color:white;
     display: block;
   }
@@ -98,4 +98,17 @@ figcaption{
   }
   html{
     scroll-behavior: smooth;
+  }
+  .dropdown-menu a:hover {
+    background-color: rgb(66, 65, 65);
+    color: white;
+  }
+  body{
+    background: #FFB494;
+  }
+  .title{
+    background: #FE7959;
+    border:10px solid #fff;
+    margin: 15px 0px;
+    padding: 30px 15px;
   }
