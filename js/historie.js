@@ -43,7 +43,7 @@ const events = [
     {
         "stoleti": "20. století",
         "udalost": "Politická krize",
-        "podrobnosti": "Počátek 20. století byl ve Španělsku ve znamení klidu, míru[zdroj?] a ekonomického rozvoje. Politická krize vedla však nejprve k nastolení diktatury Miguela Primo de Rivery, a poté k vyhlášení druhé španělské republiky a odchodu španělského krále Alfonse XIII. do exilu. Sílící sociální a politické konflikty vedly k vypuknutí občanské války, která si vyžádala přes půl milionu obětí.[2] V roce 1939 válka skončila nástupem diktátora Francisca Franca, který vládl až do své smrti v roce 1975. Odhaduje se, že během občanské války a po válce nechal Franco popravit na 180 000 lidí.[3] Již za své vlády Franco rozhodl, že Španělsko se stane monarchií a připravil předání moci vnukovi svrženého krále Juanu Carlosovi.",
+        "podrobnosti": "Počátek 20. století byl ve Španělsku ve znamení klidu, míru a ekonomického rozvoje. Politická krize vedla však nejprve k nastolení diktatury Miguela Primo de Rivery, a poté k vyhlášení druhé španělské republiky a odchodu španělského krále Alfonse XIII. do exilu. Sílící sociální a politické konflikty vedly k vypuknutí občanské války, která si vyžádala přes půl milionu obětí. V roce 1939 válka skončila nástupem diktátora Francisca Franca, který vládl až do své smrti v roce 1975. Odhaduje se, že během občanské války a po válce nechal Franco popravit na 180 000 lidí. Již za své vlády Franco rozhodl, že Španělsko se stane monarchií a připravil předání moci vnukovi svrženého krále Juanu Carlosovi.",
         "url": "https://cs.wikipedia.org/wiki/%C5%A0pan%C4%9Blsko#15._stolet%C3%AD",
         "evaluation": "true",
         "img": "./img/20.jpg",
@@ -61,6 +61,81 @@ const events = [
 
     },
 ];
+const heroes = [
+    {
+        "jmeno": "Juan Carlos I.",
+        "narozeni": "5. ledna 1938",
+        "smrt": "18. června 2014",
+        "popis": "Juan Carlos I., plným jménem Juan Carlos Alfonso Víctor María de Borbón y Borbón – Dos Sicilias (* 5. ledna 1938, Řím, Itálie) byl v letech 1975–2014 španělským králem a armádním velitelem španělských ozbrojených sil. Narodil se jako vnuk španělského krále Alfonse XIII. Dne 2. června 2014 oznámil, že z osobních důvodů abdikuje ve prospěch svého syna Filipa VI. 18. června 2014 podepsal ústavní zákon o abdikaci, jehož právní moc nabyla účinnosti zveřejněním v úředním věstníku v následujícím dni.",
+        "img": "/img/Juan.jpeg",
+        "online": "https://cs.wikipedia.org/wiki/Juan_Carlos_I."
+    },
+    {
+        "jmeno": "Miguel de Cervantes y Saavedra",
+        "narozeni": "29. září 1547",
+        "smrt": "22. dubna 1616",
+        "popis": "Miguel de Cervantes y Saavedra byl španělský voják, básník a spisovatel. Působil na přelomu 16. a 17. století za vlády Filipa II. a jeho potomka Filipa III. Ačkoliv ve Španělsku byla hospodářská krize, španělské umění a literatura dosahovaly svého vrcholu.",
+        "img": "/img/Miguel.jpeg",
+        "online": "https://cs.wikipedia.org/wiki/Miguel_de_Cervantes_y_Saavedra"
+    },
+    {
+        "jmeno": "Kryštof Kolumbus",
+        "narozeni": "22. srpna 1451",
+        "smrt": "20. května 1506",
+        "popis": "Kryštof Kolumbus (italsky Cristoforo Colombo, latinsky Christophorus Columbus, španělsky Cristóbal Colón, portugalsky Cristóvão Colombo, asi 31. října 1451?, Janov – 20. května 1506, Valladolid) byl janovský mořeplavec a kolonizátor narozený v Janovské republice v dnešní severozápadní Itálii. Ve službách Katolických králů Španělska uskutečnil čtyři plavby přes Atlantský oceán, které v Evropě probudily zájem o nový kontinent, později nazvaný Amerika. Tyto výpravy a Kolumbovy snahy o založení trvalých sídel na Hispaniole zahájily španělskou kolonizaci, která vyústila v soutěž evropských mocností o kolonizaci Jižní i Severní Ameriky.",
+        "img": "/img/15.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Kry%C5%A1tof_Kolumbus"
+    },
+    {
+        "jmeno": "Pablo Picasso",
+        "narozeni": "25. října 1881",
+        "smrt": "8. dubna 1973",
+        "popis": "Pablo Ruiz Picasso byl španělský malíř a sochař. Jeho celé jméno je Pablo Diego José Picasso. Je jednou z nejvýznamnějších osobností umění 20. století. Společně s Georgesem Braquem je považován za zakladatele kubismu. Odhaduje se, že Picasso vytvořil asi 13 500 obrazů a skic, 100 000 rytin a tisků, 34 000 ilustrací a 300 skulptur a keramických děl. Byl aktivním členem francouzské komunistické strany (Parti communiste français).Jeho obraz Alžírské ženy byl v květnu 2015 v newyorské aukční síni Christie's vydražen za 179,4 milionu dolarů (v přepočtu 4,4 miliardy korun), čímž se stal historicky nejdražším výtvarným dílem prodaným v aukci.",
+        "img": "/img/Picasso.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Pablo_Picasso"
+    },
+    {
+        "jmeno": "Terezie od Ježíše",
+        "narozeni": "28. března 1515",
+        "smrt": "4. října 1582",
+        "popis": "Svatá Terezie od Ježíše, též zvaná Terezie z Ávily (Terezie z Avily) nebo Tereza z Ávily, křestním jménem Teresa de Cepeda y Ahumada byla španělská mystička a reformátorka karmelitánského řádu. Její svátek se slaví 15. října (v noci ze 4. na 15. října proběhl přechod na gregoriánský kalendář, přičemž vypadlo 10 kalendářních dní). Papež Pavel VI. ji 29. září 1970 vůbec jako první ženu jmenoval učitelkou církve (dnes jsou už čtyři).",
+        "img": "/img/Terezie.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Terezie_od_Je%C5%BE%C3%AD%C5%A1e"
+    },
+    {
+        "jmeno": "Francisco Franco",
+        "narozeni": "4. prosince 1892",
+        "smrt": "20. listopadu 1975 ",
+        "popis": "Francisco Paulino Hermenegildo Teódulo Franco y Bahamonde Salgado Pardo de Andrade (4. prosince 1892 Ferrol, Španělsko – 20. listopadu 1975, Madrid), zkráceně Francisco Franco Bahamonde, známý především jako generál Franco, byl autoritativní politik a nejvyšší představitel Španělska od roku 1939 až do své smrti v roce 1975. Byl označován jako „Caudillo de España por la gracia de Dios“ (Vůdce Španělska z Boží milosti). Podle odhadů španělského soudce Baltasara Garzóna, který chtěl v roce 2008 přešetřovat zločiny frankistického režimu, nechal Franco během občanské války a po válce popravit na 180 000 lidí",
+        "img": "/img/Francisco.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Francisco_Franco"
+    },
+    {
+        "jmeno": "Cid",
+        "narozeni": "Nevíme",
+        "smrt": "1099",
+        "popis": "Rodrigo (někdy Ruy) Díaz de Vívar (kolem 1040–1099), známý též jako El Cid Campeador, El Cid či jen Cid, byl kastilský rytíř a později politický a vojenský vůdce, který v době počátku reconquisty dobyl a ovládl Valencii. Ve Španělsku ho považují za svého národního hrdinu.Původně byl ve službách kastilského krále Alfonsa VI. Není přesně známo, proč z ní musel odejít a opustit Kastilii. Poté vstoupil do služeb Emíra ze Zaragozy a bojoval s ním proti Almorávidům i aragonskému králi. Nikdy však nejednal proti zájmům kastilského království, třebaže nedůvěra mezi ním a Alfonsem přetrvala. Nakonec dobyl na Arabech Valencii a stal se zde nezávislým vládcem. Byl tolerantní k věřícím jiného vyznání. Zemřel v roce 1099, ale slavný hrdinský epos Píseň o Cidovi i četné kroniky zajistily jeho jménu nesmrtelnost.",
+        "img": "/img/Cid.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Cid"
+    },
+    {
+        "jmeno": "Filip VI. Španělský",
+        "narozeni": "19. června 2014",
+        "smrt": "",
+        "popis": "Filip VI. Španělský (někdy Felipe VI., španělsky Felipe VI de España, plným jménem Felipe Juan Pablo Alfonso de Todos los Santos de Borbón y de Grecia; * 30. ledna 1968, Madrid) je současný španělský král z rodu anjouských Bourbonů. Dojmenován dne 19. června 2014, a to po abdikaci svého otce Juana Carlose I. v souladu s ústavním zákonem o abdikaci. Se svou manželkou, královnou Letizií, mají dvě dcery, prvorozenou Leonoru, kněžnu asturskou, a druhorozenou Sofii.",
+        "img": "/img/Filip.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Filip_VI._%C5%A0pan%C4%9Blsk%C3%BD"
+    },
+    {
+        "jmeno": "Isabela Kastilská",
+        "narozeni": "22. duben 1451",
+        "smrt": "26. listopad 1504",
+        "popis": "Narodila se jako dcera královského páru Jana II. Kastilského a Isabely Portugalské. Když byla Isabela ještě velice malá, zemřel jí otec a na trůn nastoupil její nevlastní bratr Jindřich. Jindřich královnu-vdovu i s dětmi okamžitě deportoval do vyhnanství. Isabela se po čase znovu na dvůr vrátila a dokonce měla na tehdejšího vladaře patrný vliv. Podařilo se jí Jindřicha přesvědčit, aby ji jmenoval svou následnicí. Později si také chtěla vybrat ženicha. I když Jindřich odmítal, Isabela si zvolila o rok mladšího Ferdinanda, budoucího vladaře Aragonska, kterého si ve svých osmnácti letech opravdu vzala. Narodilo se jim pět dětí, mj. Kateřina Aragonská, která se stala první manželkou anglického krále Jindřicha VIII. Jediný jejich syn Jan však zemřel ve svých 21 letech, aniž by dosedl na trůny obou království jako mužský následník svých rodičů.",
+        "img": "/img/Isabela.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Isabela_Kastilsk%C3%A1"
+    },
+
+];
 
 $(document).ready(function () {
     $("#Obecne").on("click", function () {
@@ -69,7 +144,6 @@ $(document).ready(function () {
     });
 
     events.forEach((event) => {
-        /* Metoda append() přidává nové prvky do vybrané částí stránky (vždy za už existující obsah) */
         $("#stoleti ").append(`
         <h4 class="ramec ramec2 event-stoleti bg-dark ">${event.stoleti}- <i style="color:white;font-weight: 300!important;">${event.udalost}</i></h4>
         <div class="row  event-hide bg-dark text-white p-3 ml-3 mr-2" style="margin-top:-10px!important;">
@@ -79,21 +153,15 @@ $(document).ready(function () {
             </div>
         <div class="col-sm-5 event-podrobnosti">
             <img class="img-fluid mt-2 ramecek" style="width: ${event.type}" src="${event.img}" alt="Obrazek">
-      
         </div>
     </div>`);
     });
 
-
     $(".event-hide").hide();
 
-
     $(".event-stoleti").on("click", function () {
-
         $(".event-hide").hide();
         $(this).next().toggle(500);
-
-
     });
 
 
