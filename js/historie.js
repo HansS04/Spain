@@ -2,7 +2,7 @@
 const events = [
     {
         "stoleti": "15. století",
-        "udalost": "Sjednocení států Pyrenejského poloostrova do španělského království",
+        "udalost": "Sjednocení států ",
         "podrobnosti": "V 15. století představoval maurské panství na Pyrenejském poloostrově už jen malý emirát Granada. Na druhé straně Kastilie položil sňatek dědičky kastilského trůnu Isabely Kastilské a dědice aragonského trůnu Ferdinanda II. Aragonského (1469) základy k trvalému sjednocení dvou nejmocnějších křesťanských států Pyrenejského poloostrova do španělského království. Formálně k němu došlo až nástupem na trůn jejich vnuka Karla I. Habsburského, neboť Isabela a Ferdinand vládli samostatně každý ve svém království a v zemi svého partnera byli pouze zástupci panovníka. ",
         "url": "https://cs.wikipedia.org/wiki/%C5%A0pan%C4%9Blsko#15._stolet%C3%AD",
         "evaluation": "true",
@@ -12,7 +12,7 @@ const events = [
     },
     {
         "stoleti": "16-17. století",
-        "udalost": "Španělsko za vlády Habsburků",
+        "udalost": "za vlády Habsburků",
         "podrobnosti": "V 16. století se Španělsko pod vládou španělských Habsburků Karla V. (1516–1556) a jeho syna Filipa II. (1556–1598) stalo nejmocnější zemí západní a střední Evropy. Období vlády Karla I. a Filipa II. se také označuje jako zlatý věk ve Španělsku. Mocenské postavení Filipa II. bylo založeno především na bohatství, které dovážely do země tzv. stříbrné konvoje z nově objevených zámořských zemí, a na rozsahu habsburských držav. Karel V. vládl nejen vlastnímu Španělsku, ale také neapolskému království a Sicílii, Nizozemí a obrovským zámořským državám. Právem mohl tvrdit, že nad jeho zemí Slunce nezapadá. Kromě toho byl dědicem tzv. dědičných habsburských zemí ve střední Evropě, které přenechal roku 1521–1522 bruselskými smlouvami mladšímu bratru Ferdinandovi. Roku 1519 byl zvolen římským králem a později korunován římským císařem (Karel V.). Roku 1580 byl Filip II. zvolen portugalským králem, a Portugalsko se tak spojilo personální unií se Španělskem.",
         "url": "https://cs.wikipedia.org/wiki/%C5%A0pan%C4%9Blsko#15._stolet%C3%AD",
         "evaluation": "false",
@@ -86,11 +86,6 @@ const heroes = [
         "img": "./img/15.jpg",
         "online": "https://cs.wikipedia.org/wiki/Kry%C5%A1tof_Kolumbus"
     },
-   
-    
-];
-
-const heroes2 = [
     {
         "jmeno": "Pablo Picasso",
         "narozeni": "25. října 1881",
@@ -115,35 +110,39 @@ const heroes2 = [
         "img": "./img/Francisco.jpg",
         "online": "https://cs.wikipedia.org/wiki/Francisco_Franco"
     },
+    {
+        "jmeno": "Cid",
+        "narozeni": "Nevíme",
+        "smrt": "1099",
+        "popis": "Rodrigo (někdy Ruy) Díaz de Vívar (kolem 1040–1099), známý též jako El Cid Campeador, El Cid či jen Cid, byl kastilský rytíř a později politický a vojenský vůdce, který v době počátku reconquisty dobyl a ovládl Valencii. Ve Španělsku ho považují za svého národního hrdinu.",
+        "img": "./img/Cid.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Cid"
+    },
+    {
+        "jmeno": "Filip VI. Španělský",
+        "narozeni": "19. června 2014",
+        "smrt": "",
+        "popis": "Filip VI. Španělský (někdy Felipe VI., španělsky Felipe VI de España, plným jménem Felipe Juan Pablo Alfonso de Todos los Santos de Borbón y de Grecia; * 30. ledna 1968, Madrid) je současný španělský král z rodu anjouských Bourbonů.",
+        "img": "./img/Filip.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Filip_VI._%C5%A0pan%C4%9Blsk%C3%BD"
+    },
+    {
+        "jmeno": "Isabela Kastilská",
+        "narozeni": "22. duben 1451",
+        "smrt": "26. listopad 1504",
+        "popis": "Narodila se jako dcera královského páru Jana II. Kastilského a Isabely Portugalské. Když byla Isabela ještě velice malá, zemřel jí otec a na trůn nastoupil její nevlastní bratr Jindřich. Jindřich královnu-vdovu i s dětmi okamžitě deportoval do vyhnanství. ",
+        "img": "./img/Isabela.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Isabela_Kastilsk%C3%A1"
+    },
+
+   
+    
 ];
 
-const heroes3 = [
-{
-    "jmeno": "Cid",
-    "narozeni": "Nevíme",
-    "smrt": "1099",
-    "popis": "Rodrigo (někdy Ruy) Díaz de Vívar (kolem 1040–1099), známý též jako El Cid Campeador, El Cid či jen Cid, byl kastilský rytíř a později politický a vojenský vůdce, který v době počátku reconquisty dobyl a ovládl Valencii. Ve Španělsku ho považují za svého národního hrdinu.",
-    "img": "./img/Cid.jpg",
-    "online": "https://cs.wikipedia.org/wiki/Cid"
-},
-{
-    "jmeno": "Filip VI. Španělský",
-    "narozeni": "19. června 2014",
-    "smrt": "",
-    "popis": "Filip VI. Španělský (někdy Felipe VI., španělsky Felipe VI de España, plným jménem Felipe Juan Pablo Alfonso de Todos los Santos de Borbón y de Grecia; * 30. ledna 1968, Madrid) je současný španělský král z rodu anjouských Bourbonů.",
-    "img": "./img/Filip.jpg",
-    "online": "https://cs.wikipedia.org/wiki/Filip_VI._%C5%A0pan%C4%9Blsk%C3%BD"
-},
-{
-    "jmeno": "Isabela Kastilská",
-    "narozeni": "22. duben 1451",
-    "smrt": "26. listopad 1504",
-    "popis": "Narodila se jako dcera královského páru Jana II. Kastilského a Isabely Portugalské. Když byla Isabela ještě velice malá, zemřel jí otec a na trůn nastoupil její nevlastní bratr Jindřich. Jindřich královnu-vdovu i s dětmi okamžitě deportoval do vyhnanství. ",
-    "img": "./img/Isabela.jpg",
-    "online": "https://cs.wikipedia.org/wiki/Isabela_Kastilsk%C3%A1"
-},
 
-];
+
+
+
 
 $(document).ready(function () {
     $("#Obecne").on("click", function () {
@@ -153,7 +152,7 @@ $(document).ready(function () {
 
     events.forEach((event) => {
         $("#stoleti ").append(`
-        <h4 class="ramec ramec2 event-stoleti bg-dark ">${event.stoleti}- <i style="color:white;font-weight: 300!important;">${event.udalost}</i></h4>
+        <h4 class="ramec ramec2 event-stoleti bg-dark ">${event.stoleti}- <i style="color:white; font-weight: 300;">${event.udalost}</i></h4>
         <div class="row  event-hide bg-dark text-white p-3 ml-3 mr-2" style="margin-top:-10px!important;">
       
          <div class="col-sm-6 event-podrobnosti">
@@ -175,24 +174,7 @@ $(document).ready(function () {
                 </div>
         `);
     });
-    heroes2.forEach((hero) => {
-        $(".galery2 ").append(`
-        <div class="galery col-sm-3 " style="margin-left: 50px!important;">
-                    <img class="ramecek" style="width: 200px;" src="${hero.img}" alt="${hero.jmeno}">
-                    <h5 class="jmenovka">${hero.jmeno}</h5>
-                    <p class="galery-content">${hero.popis}<a href="${hero.online}">odkaz...</a> </p>
-                </div>
-        `);
-    });
-    heroes3.forEach((hero) => {
-        $(".galery3 ").append(`
-        <div class="galery col-sm-3 " style="margin-left: 50px!important;">
-                    <img class="ramecek" style="width: 200px;" src="${hero.img}" alt="${hero.jmeno}">
-                    <h5 class="jmenovka">${hero.jmeno}</h5>
-                    <p class="galery-content">${hero.popis}<a href="${hero.online}">odkaz...</a> </p>
-                </div>
-        `);
-    });
+    
 
 
     $(".event-hide").hide();
@@ -211,3 +193,4 @@ $(document).ready(function () {
 
 
 });
+

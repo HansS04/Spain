@@ -8,16 +8,34 @@ header{
 #spa{
     font-family: 'Yatra One', cursive;
     color: rgb(255, 187, 0);
-    position: relative;
-    margin-right: 200px;
-    font-size: 90px;
+    
+    
+    font-size: 80px;
    padding-top: 50px;
-
+    padding-right: 100px;
 }
+#len {
+  color: white;
+  padding-right: 200px;
+}
+
+@media  only screen and (max-width: 600px) {
+  #spa {
+    text-align: center;
+    font-size: 20px;
+    padding-right: 0px;
+    padding-top: 80px;
+  }
+}
+
 #len{
-    margin-right: 40px;
-    font-family: 'Yatra One', cursive;
-    color: white;
+  font-size: 20px;
+  padding-right: 50px;
+  
+}
+
+.event-stoleti{
+  font-size: 15px;
 }
 
 main{
@@ -92,10 +110,7 @@ figcaption{
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
   }
-  @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
-  }
+  
   html{
     scroll-behavior: smooth;
   }
@@ -143,5 +158,5 @@ figcaption{
    font-size: 15px;
  }
  .marg{
-   margin-left: 6% !important;;
- }
+   margin-left: 6% ;
+  }
