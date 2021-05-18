@@ -1,0 +1,77 @@
+[
+    {
+        "jmeno": "Juan Carlos I.",
+        "narozeni": "5. ledna 1938",
+        "smrt": "18. června 2014",
+        "popis": "Juan Carlos I., plným jménem Juan Carlos Alfonso Víctor María de Borbón y Borbón – Dos Sicilias (* 5. ledna 1938, Řím, Itálie) byl v letech 1975–2014 španělským králem a armádním velitelem španělských ozbrojených sil.",
+        "img": "./img/Juan.jpeg",
+        "online": "https://cs.wikipedia.org/wiki/Juan_Carlos_I."
+    },
+    {
+        "jmeno": "Miguel de Cervantes y Saavedra",
+        "narozeni": "29. září 1547",
+        "smrt": "22. dubna 1616",
+        "popis": "Miguel de Cervantes y Saavedra byl španělský voják, básník a spisovatel. Působil na přelomu 16. a 17. století za vlády Filipa II. a jeho potomka Filipa III. Ačkoliv ve Španělsku byla hospodářská krize, španělské umění a literatura dosahovaly svého vrcholu.",
+        "img": "./img/Miguel.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Miguel_de_Cervantes_y_Saavedra"
+    },
+    {
+        "jmeno": "Kryštof Kolumbus",
+        "narozeni": "22. srpna 1451",
+        "smrt": "20. května 1506",
+        "popis": "Kryštof Kolumbus (italsky Cristoforo Colombo, latinsky Christophorus Columbus, španělsky Cristóbal Colón, portugalsky Cristóvão Colombo, asi 31. října 1451?, Janov – 20. května 1506, Valladolid) byl janovský mořeplavec a kolonizátor narozený v Janovské republice v dnešní severozápadní Itálii. ",
+        "img": "./img/15.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Kry%C5%A1tof_Kolumbus"
+    },
+    {
+        "jmeno": "Pablo Picasso",
+        "narozeni": "25. října 1881",
+        "smrt": "8. dubna 1973",
+        "popis": "Pablo Ruiz Picasso byl španělský malíř a sochař. Jeho celé jméno je Pablo Diego José Picasso. Je jednou z nejvýznamnějších osobností umění 20. století. Společně s Georgesem Braquem je považován za zakladatele kubismu.",
+        "img": "./img/Picasso.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Pablo_Picasso"
+    },
+    {
+        "jmeno": "Terezie od Ježíše",
+        "narozeni": "28. března 1515",
+        "smrt": "4. října 1582",
+        "popis": "Svatá Terezie od Ježíše, též zvaná Terezie z Ávily (Terezie z Avily) nebo Tereza z Ávily, křestním jménem Teresa de Cepeda y Ahumada byla španělská mystička a reformátorka karmelitánského řádu. Její svátek se slaví 15. října (v noci ze 4. na 15. října proběhl přechod na gregoriánský kalendář, přičemž vypadlo 10 kalendářních dní).",
+        "img": "./img/Terezie.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Terezie_od_Je%C5%BE%C3%AD%C5%A1e"
+    },
+    {
+        "jmeno": "Francisco Franco",
+        "narozeni": "4. prosince 1892",
+        "smrt": "20. listopadu 1975 ",
+        "popis": "Francisco Paulino Hermenegildo Teódulo Franco y Bahamonde Salgado Pardo de Andrade (4. prosince 1892 Ferrol, Španělsko – 20. listopadu 1975, Madrid), zkráceně Francisco Franco Bahamonde, známý především jako generál Franco, byl autoritativní politik a nejvyšší představitel Španělska od roku 1939 až do své smrti v roce 1975.",
+        "img": "./img/Francisco.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Francisco_Franco"
+    },
+    {
+        "jmeno": "Cid",
+        "narozeni": "Nevíme",
+        "smrt": "1099",
+        "popis": "Rodrigo (někdy Ruy) Díaz de Vívar (kolem 1040–1099), známý též jako El Cid Campeador, El Cid či jen Cid, byl kastilský rytíř a později politický a vojenský vůdce, který v době počátku reconquisty dobyl a ovládl Valencii. Ve Španělsku ho považují za svého národního hrdinu.",
+        "img": "./img/Cid.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Cid"
+    },
+    {
+        "jmeno": "Filip VI. Španělský",
+        "narozeni": "19. června 2014",
+        "smrt": "",
+        "popis": "Filip VI. Španělský (někdy Felipe VI., španělsky Felipe VI de España, plným jménem Felipe Juan Pablo Alfonso de Todos los Santos de Borbón y de Grecia; * 30. ledna 1968, Madrid) je současný španělský král z rodu anjouských Bourbonů.",
+        "img": "./img/Filip.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Filip_VI._%C5%A0pan%C4%9Blsk%C3%BD"
+    },
+    {
+        "jmeno": "Isabela Kastilská",
+        "narozeni": "22. duben 1451",
+        "smrt": "26. listopad 1504",
+        "popis": "Narodila se jako dcera královského páru Jana II. Kastilského a Isabely Portugalské. Když byla Isabela ještě velice malá, zemřel jí otec a na trůn nastoupil její nevlastní bratr Jindřich. Jindřich královnu-vdovu i s dětmi okamžitě deportoval do vyhnanství. ",
+        "img": "./img/Isabela.jpg",
+        "online": "https://cs.wikipedia.org/wiki/Isabela_Kastilsk%C3%A1"
+    }
+
+   
+    
+]
