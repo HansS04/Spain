@@ -11,3 +11,7 @@
 
 >My Last commit of History
  - this show all my proggres of the bookmarks and NEW gallery.
+ 
+>This commit is upload on server
+ -so you have to open "New terminal"
+ -and start server with nodemon
