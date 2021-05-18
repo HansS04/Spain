@@ -33,7 +33,7 @@ $(document).ready(function () {
     });
     
     };
-
+// načte data z externího json souboru 
     fetch('../data/events.json')
     .then(response => {
        console.log(response);
@@ -47,7 +47,7 @@ $(document).ready(function () {
        console.error('Chyba: \n', error);
     });
 
-
+// Funkce v galerii, kde se na pevno vypíšou, jednotlivé obrázky s jmenovkami 
     function heroesBlock(heroes) {
     heroes.forEach((hero) => {
         $(".galery-content").hide()
@@ -64,6 +64,8 @@ $(document).ready(function () {
         $(this).next().toggle(500);
     });
 };
+
+//Načte data z externího Json souboru 
     fetch('../data/heroes.json')
     .then(response => {
        console.log(response);
@@ -77,12 +79,10 @@ $(document).ready(function () {
        console.error('Chyba: \n', error);
     });
 
-    $(".event-hide").hide();
-    $(".galery-content").hide()
 
-    $(".jmenovka ").on("click", function () {
-        $(".galery-content").hide();
-        $(this).next().toggle(500);
+
+
+   
     });
-});
+
 
