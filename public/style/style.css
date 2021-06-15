@@ -160,3 +160,11 @@ figcaption{
  .marg{
    margin-left: 6% ;
   }
+.pamatky{
+  margin: auto!important;
+}
+.dole{
+  margin-left: -50px!important;
+  margin-right: -100px!important;
+  margin-bottom: -80px!important;
+}

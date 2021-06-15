@@ -5,12 +5,13 @@
 
 
 
-
+//na kliknutí 
 $(document).ready(function () {
     $("#Obecne").on("click", function () {
         $("#Pocatek h4, #Pocatek p, #Pocatek img").toggle(2000);
 
     });
+ //Vypise jednotlive karty , pro století, které se můžou jednotlivé jak 
     function eventsBlock(events) {
     events.forEach((event) => {
         $(".event-hide").hide();
@@ -46,7 +47,6 @@ $(document).ready(function () {
     .catch(function (error) {
        console.error('Chyba: \n', error);
     });
-
 // Funkce v galerii, kde se na pevno vypíšou, jednotlivé obrázky s jmenovkami 
     function heroesBlock(heroes) {
     heroes.forEach((hero) => {
@@ -56,7 +56,7 @@ $(document).ready(function () {
                     <img class="ramecek" style="width: 200px;" src="${hero.img}" alt="${hero.jmeno}">
                     <h5 class="jmenovka">${hero.jmeno}</h5>
                     <p class="galery-content">${hero.popis} <a href="${hero.online}">odkaz...</a></p>
-                </div>
+                </div> 
         `);
     });
     $(".jmenovka ").on("click", function () {
@@ -64,7 +64,6 @@ $(document).ready(function () {
         $(this).next().toggle(500);
     });
 };
-
 //Načte data z externího Json souboru 
     fetch('../data/heroes.json')
     .then(response => {
@@ -78,11 +77,6 @@ $(document).ready(function () {
     .catch(function (error) {
        console.error('Chyba: \n', error);
     });
-
-
-
-
-   
-    });
+ });
 
 
