@@ -28,6 +28,18 @@ app.get('/api/events/:index', (req, res) => {
     .catch(err => res.send('Chyba lávky', err));
 });
 
+//Server přečte a načte soubory json, pokud najde error, vypíše ho
+app.get('/api/events', (req, res) => {
+    readJSON('data/heroes.json')
+    .then(data => res.send(data))
+    .catch(err => res.send('Chyba lávky', err));
+});
+//Musím zjisti, jak funguje Opsáno z hodiny
+app.get('/api/historie/:index', (req, res) => {
+    readJSON('data/historie.json')
+    .then(data => res.send(data[req.params.index]))
+    .catch(err => res.send('Chyba lávky', err));
+});
 
 const PORT = process.env.PORT || 8080;
 server.listen(PORT, () => console.log(`Server bezi na portu: ${PORT}`));
